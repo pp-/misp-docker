@@ -33,13 +33,6 @@ $ cp template.env .env
 $ vi .env
 ```
 
-## ~~Build the containers~~
-~~```
-$ docker-compose build
-or
-$ docker-compose -f docker-compose.yml build
-```~~
-
 ## Run containers
 ```
 $ docker-compose up
