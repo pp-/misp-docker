@@ -2,7 +2,7 @@ version: '3'
 
 services:
   web:
-    image: dockerregistry.tailcall.net/first/misp
+    image: msm2e4d534d/first-misp
     depends_on:
       - db
     container_name: misp_web
